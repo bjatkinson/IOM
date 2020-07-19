@@ -13,6 +13,8 @@ library(ggrepel)
 
 # read in table 2.1 ----
 
+#test
+
 census_2.1 <- read_excel(here("data", "2016-isle-of-man-census-report-data-tables.xlsx"),
                         "Table 2.1", "A2:E30") %>%
   rename(name = "Area of Residence", pop_16 = "2016", per_16 = "% of Total", 
